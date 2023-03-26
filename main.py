@@ -23,4 +23,4 @@ sentence = sys.argv
 # Play sentence
 print(f'Playing words: {sentence}')
 for word in sentence:
-    play(word)
+    play(word.lower())
