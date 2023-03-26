@@ -19,6 +19,7 @@ def play(word):
 
 # Get input
 sentence = sys.argv
+del sentence[0]
 
 # Play sentence
 print(f'Playing words: {sentence}')
