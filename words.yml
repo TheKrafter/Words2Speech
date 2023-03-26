@@ -1,0 +1,4 @@
+# words.yml
+# For each word, type it's name, a colon, and then the path to it's associated mp3 file in quotes.
+hello: 'hello.mp3'
+bye: 'bye.mp3'
