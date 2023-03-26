@@ -3,6 +3,7 @@
 from playsound import playsound
 import yaml
 import sys
+import time
 
 # Open words.yml
 with open('words.yml', 'r') as file:
@@ -13,6 +14,7 @@ def play(word):
     if word in words:
         print(word)
         playsound(words[word])
+        time.sleep(0.4)
     else:
         raise NotImplementedError(f'The word "{word}" was not found in "words.yml"!')
 
