@@ -4,7 +4,7 @@ audio_format = sys.argv[1]
 
 words = sys.argv
 del words[0]
-del words[1]
+del words[0]
 
 words_yml = [f'# Start of automated setup with format {audio_format}\n']
 for word in words:
