@@ -18,7 +18,7 @@ Make sure not to use any punctuation marks. Capitalization doesn't matter either
 However, if a word you use isn't in words.yml, a `NotImplementedError` will be raised, telling you which word isn't there.
 
 ## Automated setup
-If all your files are in the same naming format, you can use `auto_setup.py` as shown:
+If all your files are in the same naming format (and the words are all lowercase in the file names), you can use `auto_setup.py` as shown:
 ```sh
 python3 auto_setup.py saying_WORDHERE_lmao.mp3 hello world bye lol
 ```
