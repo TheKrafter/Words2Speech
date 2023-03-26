@@ -23,3 +23,5 @@ If all your files are in the same naming format (and the words are all lowercase
 python3 auto_setup.py saying_WORDHERE_lmao.mp3 hello world bye lol
 ```
 Where `WORDHERE` is what to replace with the word, and `hello world bye lol` is a list of space-seperated words that are recorded with this format.
+
+If the words' first letters are capitalized, use `Wordhere` as what to replace with the words instead. Capitalization in your list of names doesn't matter.
